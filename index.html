@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>REY TULO</title>
+  <script src="js/jquery.js" type="text/javascript"></script>
+  <script src="js/jquery.nicescroll.min.js" type="text/javascript"></script>
+  <script src="js/parallaxImg.js" type="text/javascript"></script>
+  <script src="js/materialize.js" type="text/javascript"></script>
+  <link  rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?cp0z2c">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="css/materialize.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script type="text/javascript">
+    $(document).on("ready", function() {
+      var parallaxSettings = {
+        initialOpacity: 1, //from 0 to 1, e.g. 0.34 is a valid value. 0 = transparent, 1 = Opaque
+        opacitySpeed: 0.1, //values from 0.01 to 1 -> 0.01: slowly appears on screen; 1: appears as soon as the user scrolls 1px
+        pageLoader: true
+      };
+      parallaxImgScroll(parallaxSettings);
+    });
+  </script>
+</head>
+
+<body>
+  <header>
+     <nav class="black">
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo"><img src="img/logo2.png"  alt="Relevant textual alternative to the image"></a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="large material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+          <!--  <li><a href="#!"><i class="material-icons">library_music</i></a></li>-->
+            <!--    <li><a href="#!"><i class="material-icons">library_books</i></a></li>-->
+            <li><a href="https://reytulo.bandcamp.com" target="_blank"><i class="socicon-bandcamp"></i></a></li>
+            <li><a href="https://soundcloud.com/reytulo" target="_blank"  ><i class="socicon-soundcloud"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCNUjmNYv6ss9rCGYLm6wpbw" target="_blank"  ><i class="socicon-youtube"></i></a></li>
+            <li><a href="https://twitter.com/rey_tulo" target="_blank"  ><i class="socicon-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com/elreytulo/" target="_blank"  ><i class="socicon-instagram"></i></a></li>
+          </ul>
+          <ul class="side-nav black" id="mobile-demo">
+            <li><div class="userView">
+              <div class="background">
+                <img src="img/reytulofondo.jpg"  alt="Relevant textual alternative to the image">
+              </div>
+              <a href="#titulo"><img class="circle" src="img/logo.png" alt="Rey Tulo logo"></a>
+              <a href="#!name"><span class="white-text name">REY TULO</span></a>
+              <a href=mailto:elreytulo@gmail.com><span class="white-text email">elreytulo@gmail.com</span></a>
+            </div></li>
+          <li><div class="divider"></div></li>
+                <li><a href="https://reytulo.bandcamp.com" target="_blank"><span class="white-text"><i class="socicon-bandcamp"></i></span></a></li>
+                <li><a href="https://soundcloud.com/reytulo" target="_blank"><span class="white-text"><i class="socicon-soundcloud"></i></span></a></li>
+                <li><a href="https://www.youtube.com/channel/UCNUjmNYv6ss9rCGYLm6wpbw" target="_blank"><span class="white-text"><i class="socicon-youtube"></i></span></a></li>
+                <li><a href="https://twitter.com/rey_tulo" target="_blank"><span class="white-text"><i class="socicon-twitter"></i></span></a></li>
+                <li><a href="https://www.instagram.com/elreytulo/" target="_blank"  ><span class="white-text"><i class="socicon-instagram"></i></span></a></li>
+          </ul>
+        </div>
+
+      <ul id="slide-out" class="side-nav"> </ul>
+</nav>
+  </header>
+
+  <section>
+    <article class="parallax-img-container">
+      <div id="titulo">
+        <h2> REY TULO</h2>
+        <h4> Indigo Way</h4>
+      </div>
+    <!--   <a class="btn-download-init" href="">Escuchalo</a>-->
+    <!-- images for parallax -->
+      <img src="img/reytulohumo01.png"  alt="Relevant textual alternative to the image" class="parallax-move" data-ps-z-index="1" data-ps-speed="1" data-ps-vertical-position="700" data-ps-horizontal-position="420" />
+      <img src="img/reytulohumo02.png"  alt="Relevant textual alternative to the image" class="parallax-move" data-ps-z-index="1" data-ps-speed="0.5" data-ps-vertical-position="700" data-ps-horizontal-position="220" />
+      <img src="img/reytulohumo03.png"  alt="Relevant textual alternative to the image" class="parallax-move" data-ps-z-index="1" data-ps-speed="1" data-ps-vertical-position="700" data-ps-horizontal-position="300" />
+      <img src="img/reytulohumo04.png"  alt="Relevant textual alternative to the image" class="parallax-move" data-ps-z-index="1" data-ps-speed="0.5" data-ps-vertical-position="500" data-ps-horizontal-position="620" />
+      <img src="img/reytulohumo05.png"  alt="Relevant textual alternative to the image" class="parallax-move" data-ps-z-index="1" data-ps-speed="1" data-ps-vertical-position="600" data-ps-horizontal-position="0" />
+      <img src="img/reytulohumo06.png"  alt="Relevant textual alternative to the image" class="parallax-move" data-ps-z-index="1" data-ps-speed="0.4" data-ps-vertical-position="200" data-ps-horizontal-position="520" />
+      <img src="img/reytulohumo07.png"  alt="Relevant textual alternative to the image" class="parallax-move" data-ps-z-index="1" data-ps-speed="0.3" data-ps-vertical-position="300" data-ps-horizontal-position="320" />
+      <img src="img/reytulohumo06.png"  alt="Relevant textual alternative to the image" class="parallax-move" data-ps-z-index="1" data-ps-speed="0.2" data-ps-vertical-position="-900" data-ps-horizontal-position="220" />
+      <img src="img/reytulohumo05.png"  alt="Relevant textual alternative to the image" class="parallax-move" data-ps-z-index="1" data-ps-speed="0.3" data-ps-vertical-position="-600" data-ps-horizontal-position="150" />
+      <img src="img/reytuloimagen.png"  alt="Relevant textual alternative to the image" class="parallax-move" data-ps-z-index="3" data-ps-speed="0.5" data-ps-vertical-position="-400" data-ps-horizontal-position="0" />
+      <img src="img/reytulomurcielagos.png"  alt="Relevant textual alternative to the image" class="parallax-move" data-ps-z-index="4" data-ps-speed="1" data-ps-vertical-position="-300" data-ps-horizontal-position="600" />
+      <img src="img/reytulomurcielagos2.png"  alt="Relevant textual alternative to the image" class="parallax-move" data-ps-z-index="2" data-ps-speed="1" data-ps-vertical-position="-300" data-ps-horizontal-position="500" />
+      <img src="img/reytulohumonegro.png"  alt="Relevant textual alternative to the image" class="parallax-move" data-ps-z-index="5" data-ps-speed="0.35" data-ps-vertical-position="-400" data-ps-horizontal-position="0.1">
+      <img src="img/reytulofuego.png"  alt="Relevant textual alternative to the image" class="parallax-move" data-ps-z-index="4" data-ps-speed="0.5" data-ps-vertical-position="300" data-ps-horizontal-position="120" />
+      <img src="img/reytuloalien.png"  alt="Relevant textual alternative to the image" class="parallax-move" data-ps-z-index="2" data-ps-speed="0.5" data-ps-vertical-position="-310" data-ps-horizontal-position="120" />
+      <img src="img/reytulodiosa.png"  alt="Relevant textual alternative to the image" class="parallax-move" data-ps-z-index="1" data-ps-speed="0,1" data-ps-vertical-position="-80" data-ps-horizontal-position="100" />
+    </article>
+  </section>
+
+  <section>
+    <article class="parallax-img-container">
+      <h4>Escuchame  en las principales plataformas digitales.</h4>
+      <a class="btn-floating btn-large waves-effect waves-cyan darken-2" title="bandcamp" target="_blank"  href="https://reytulo.bandcamp.com"><i class="socicon-bandcamp"></i></a>
+      <a class="btn-floating btn-large waves-effect waves-light red" title="Soundcloud" target="_blank"  href="https://soundcloud.com/reytulo"><i class="socicon-soundcloud"></i></a>
+      <a class="btn-floating btn-large waves-effect waves-light red darken-2" title="Youtube" target="_blank"  href="https://www.youtube.com/channel/UCNUjmNYv6ss9rCGYLm6wpbw"><i class="socicon-youtube"></i></a>
+
+      <img src="img/reytulohumonegro2.png"  alt="Relevant textual alternative to the image" class="parallax-move" data-ps-z-index="5" data-ps-speed="0.35" data-ps-vertical-position="400" data-ps-horizontal-position="0.1">
+      <img src="img/reytulofuego.png"  alt="Relevant textual alternative to the image" class="parallax-move" data-ps-z-index="4" data-ps-speed="0.5" data-ps-vertical-position="10" data-ps-horizontal-position="120" />
+      <img id="parallax-img-11" class="parallax-move" src="img/reytuloojo.png"  alt="Relevant textual alternative to the image" data-ps-z-index="3" data-ps-speed="0.3" data-ps-vertical-position="25" data-ps-horizontal-position="620"/>
+      <img id="parallax-img-2" class="parallax-move" src="img/reytulodemonio.png"  alt="Relevant textual alternative to the image" data-ps-z-index="1" data-ps-speed="1" data-ps-vertical-position="59" data-ps-horizontal-position="220"/>
+      <img id="parallax-img-12" class="parallax-move" src="img/reytulomurcielago.png"  alt="Relevant textual alternative to the image"  data-ps-z-index="1" data-ps-speed="1" data-ps-vertical-position="10" data-ps-horizontal-position="420"/>
+      <img id="parallax-img-3" class="parallax-move" src="img/reytulollamas.png"  alt="Relevant textual alternative to the image" data-ps-z-index="2" data-ps-speed="1" data-ps-vertical-position="9" data-ps-horizontal-position="120"/>
+      <img id="parallax-img-4" class="parallax-move" src="img/reytulocalavera.png"  alt="Relevant textual alternative to the image" data-ps-z-index="3" data-ps-speed="0.2" data-ps-vertical-position="-50" data-ps-horizontal-position="50"/>
+      <img id="parallax-img-5" class="parallax-move" src="img/reytulomurcielago.png"  alt="Relevant textual alternative to the image"  data-ps-z-index="1" data-ps-speed="0.4" data-ps-vertical-position="20" data-ps-horizontal-position="600"/>
+      <img id="parallax-img-6" class="parallax-move" src="img/reytulodemonio.png"  alt="Relevant textual alternative to the image"  data-ps-z-index="2" data-ps-speed="1" data-ps-vertical-position="250" data-ps-horizontal-position="200"/>
+      <img id="parallax-img-7" class="parallax-move" src="img/reytuloojo.png"  alt="Relevant textual alternative to the image" data-ps-z-index="2" data-ps-speed="0.8" data-ps-vertical-position="80" data-ps-horizontal-position="280"/>
+      <img id="parallax-img-8" class="parallax-move" src="img/reytulocalavera.png"  alt="Relevant textual alternative to the image"  data-ps-z-index="1" data-ps-speed="0.6" data-ps-vertical-position="300" data-ps-horizontal-position="100"/>/>
+      <img id="parallax-img-15" class="parallax-move" src="img/reytulomurcielago.png"  alt="Relevant textual alternative to the image"  data-ps-z-index="5" data-ps-speed="0.5" data-ps-vertical-position="20" data-ps-horizontal-position="60">/>
+      <img id="parallax-img-1" class="parallax-move" src="img/reytulodemonio.png"  alt="Relevant textual alternative to the image"  data-ps-z-index="4" data-ps-speed="1" data-ps-horizontal-position="90" data-ps-vertical-position-left="170"/>
+      <img id="parallax-img-14" class="parallax-move" src="img/reytulollamas.png"  alt="Relevant textual alternative to the image" data-ps-z-index="2" data-ps-speed="0.3" data-ps-horizontal-position="960" data-ps-vertical-position-left="250"/>
+      <img id="parallax-img-9" class="parallax-move" src="img/reytulomano.png"  alt="Relevant textual alternative to the image" data-ps-z-index="5" data-ps-speed="1" data-ps-vertical-position="120" data-ps-horizontal-position="290"/>
+      <img id="parallax-img-10" class="parallax-move" src="img/reytulodemonio.png"  alt="Relevant textual alternative to the image"  data-ps-z-index="2" data-ps-speed="0.3" data-ps-vertical-position="50" data-ps-horizontal-position="420"/>
+      <img id="parallax-img-13" class="parallax-move" src="img/reytulomano.png"  alt="Relevant textual alternative to the image" data-ps-z-index="3" data-ps-speed="0.8" data-ps-vertical-position="30" data-ps-horizontal-position="520"/>
+    </article>
+    </section>
+  <footer>
+      <h5>y no olvides seguirme en las Redes Sociales</h5>
+        <a class="btn-floating btn-large waves-effect waves-red blue" title="Twitter" target="_blank"  href="https://twitter.com/rey_tulo"><i class="socicon-twitter"></i></a>
+        <a class="btn-floating btn-large waves-effect waves-purple accent-3" title="instagram" target="_blank"  href="https://www.instagram.com/elreytulo/"><i class="socicon-instagram"></i></a>
+
+
+        <p>AAGG 2017</p>
+
+  <a class="subir btn-large waves-effect waves-light black"><i class="material-icons">arrow_drop_up</i></a>
+  </footer>
+
+<script type="text/javascript">
+$('.button-collapse').sideNav({
+    menuWidth: 450,
+    edge: 'right',
+    closeOnClick: true,
+    draggable: true
+  }
+);
+
+
+$(document).ready(function(){
+
+	$('.subir').click(function(){
+		$('body, html').animate({
+			scrollTop: '0px'
+		}, 300);
+	});
+
+	$(window).scroll(function(){
+		if( $(this).scrollTop() > 0 ){
+			$('.subir').slideDown(300);
+		} else {
+			$('.subir').slideUp(300);
+		}
+	});
+});
+</script>
+
+</body>
+</html>
