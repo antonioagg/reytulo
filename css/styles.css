@@ -126,7 +126,7 @@ section:nth-of-type(2) article:nth-of-type(1) {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-size: 100%;
+    /*background-size: 100%;*/
     text-align: center;
     color: #fff;
     overflow: hidden;
@@ -171,7 +171,7 @@ section:nth-of-type(2) article:nth-of-type(1) {
 
 .video-bg {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 #parallax-img-1 {
@@ -196,7 +196,7 @@ section:nth-of-type(2) article:nth-of-type(1) {
 
 #parallax-img-3 {
     width: 350px;
-    height: auto;
+    height: 100%;
     transform: rotate(-12deg);
     -ms-transform: rotate(-12deg);
     /* IE 9 */
@@ -276,7 +276,7 @@ section:nth-of-type(2) article:nth-of-type(1) {
 
 #parallax-img-11 {
     width: 440px;
-    height: auto;
+    height: 100%;
     transform: rotate(14deg);
     -ms-transform: rotate(14deg);
     /* IE 9 */
@@ -286,7 +286,7 @@ section:nth-of-type(2) article:nth-of-type(1) {
 
 #parallax-img-12 {
     width: 240px;
-    height: auto;
+    height: 100%;
     transform: rotate(-84deg);
     -ms-transform: rotate(-84deg);
     /* IE 9 */
@@ -296,7 +296,7 @@ section:nth-of-type(2) article:nth-of-type(1) {
 
 #parallax-img-13 {
     width: 440px;
-    height: auto;
+    height: 100%;
     transform: rotate(14deg);
     -ms-transform: rotate(14deg);
     /* IE 9 */
@@ -325,7 +325,7 @@ section:nth-of-type(2) article:nth-of-type(1) {
 }
 
 #titulo {
-    margin-top: 25em;
+    margin-top: 30em;
 }
 
 .subir {
