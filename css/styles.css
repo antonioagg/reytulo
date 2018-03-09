@@ -4,8 +4,8 @@
 @import url('https://fonts.googleapis.com/css?family=Creepster');
 @import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave');
 html {
-    /*font-family: 'Kumar One', sans-serif;*/
-    font-family: 'Sedgwick Ave', cursive;
+    font-family: 'Kumar One', sans-serif;
+    /*    font-family: 'Sedgwick Ave', cursive;*/
 }
 
 body {
@@ -22,12 +22,12 @@ h3,
 h4,
 h5,
 h6,
-p,
+/*p,*/
 nav a {
     /*font-family: 'Kumar One', cursive;*/
-    font-family: 'Sedgwick Ave', cursive;
-    /*font-family: 'Barrio', cursive;*/
-    /*font-family: 'Coda Caption', sans-serif;*/
+      /*  font-family: 'Sedgwick Ave', cursive;*/
+font-family: 'Barrio', cursive;
+      /*  font-family: 'Coda Caption', sans-serif;*/
     /*font-family: 'Creepster', cursive;*/
     text-align: center;
 }
